@@ -6,7 +6,19 @@ body {
 
 /* Nav stuff */
 nav {
+    display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
+    padding: 8px 25px;
+}
+
+#signin {
+    background-color: #0075C5;
+    color: white;
+    height: 34px;
+    width: 85px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 /* Center stuff */
@@ -31,10 +43,17 @@ main {
 /* Footer stuff */
 
 footer {
-    display: flex;
+    color: grey;
+    font-size: small;
 }
 
-footer div {
+#footerlinks {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
     justify-content: center;
+}
+
+#footercopyright {
     text-align: center;
 }
